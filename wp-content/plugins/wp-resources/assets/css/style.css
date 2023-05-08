@@ -1,0 +1,17 @@
+.resource_filters{
+    margin-bottom:20px;
+}
+#resource_list .res_inner {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#resource_list {
+    width: 100%;
+}
+.res_inner .res_box {
+    width: calc(33% - 15px);
+    margin-bottom: 15px;
+    margin-right: 15px;
+    border:1px solid;
+}
